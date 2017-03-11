@@ -16,11 +16,11 @@ Joel Legg is a full stack software developer with a past in petroleum geology. H
 <img src="img/mockups/mobile-products.png" alt="mobile-products" height="300px">
 <img src="img/mockups/mobile-tech.png" alt="mobile-tech" height="300px">
 <br>
-<img src="img/mockups/webpage.png" alt="webpage" height="250px">
-<img src="img/mockups/webpage-about.png" alt="webpage" height="250px">
+<img src="img/mockups/webpage.png" alt="webpage" height="270px">
+<img src="img/mockups/webpage-about.png" alt="webpage" height="270px">
 <br>
-<img src="img/mockups/webpage-projects.png" alt="webpage-projects" height="250px">
-<img src="img/mockups/webpage-tech.png" alt="webpage-tech" height="250px">
+<img src="img/mockups/webpage-projects.png" alt="webpage-projects" height="270px">
+<img src="img/mockups/webpage-tech.png" alt="webpage-tech" height="270px">
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
