@@ -10,17 +10,17 @@ Joel Legg is a full stack software developer with a past in petroleum geology. H
 <img src="img/babel.png" alt="Babel" height="30px">
 
 ## The mockup
-<img src="img/mockups/mobile.png" alt="mobile" height="200px">
-<img src="img/mockups/mobile-menu.png" alt="mobile-menu" height="200px">
-<img src="img/mockups/mobile-about.png" alt="mobile-about" height="200px">
-<img src="img/mockups/mobile-products.png" alt="mobile-products" height="200px">
-<img src="img/mockups/mobile-tech.png" alt="mobile-tech" height="200px">
+<img src="img/mockups/mobile.png" alt="mobile" height="250px">
+<img src="img/mockups/mobile-menu.png" alt="mobile-menu" height="250px">
+<img src="img/mockups/mobile-about.png" alt="mobile-about" height="250px">
+<img src="img/mockups/mobile-products.png" alt="mobile-products" height="250px">
+<img src="img/mockups/mobile-tech.png" alt="mobile-tech" height="250px">
 <br>
-<img src="img/mockups/webpage.png" alt="webpage" height="200px">
-<img src="img/mockups/webpage-about.png" alt="webpage" height="200px">
+<img src="img/mockups/webpage.png" alt="webpage" height="300px">
+<img src="img/mockups/webpage-about.png" alt="webpage" height="300px">
 <br>
-<img src="img/mockups/webpage-projects.png" alt="webpage-projects" height="200px">
-<img src="img/mockups/webpage-tech.png" alt="webpage-tech" height="200px">
+<img src="img/mockups/webpage-projects.png" alt="webpage-projects" height="300px">
+<img src="img/mockups/webpage-tech.png" alt="webpage-tech" height="300px">
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
