@@ -2,13 +2,13 @@
 
 ## Overview
 
-Joel Legg is a full stack software developer with a past in petroleum geology. His adventures have taken him around the world in the pursuit of discovering oil. His personal portfolio site includes information about him, technologies that he has worked with, and cool projects that he has been involved with. The website was built with React is designed to be responsive for a visually pleasing display on any device.
+Joel Legg is a full stack software developer with a past in petroleum geology. His adventures have taken him around the world in the pursuit of discovering oil. His personal portfolio site includes information about him, technologies that he has worked with, and cool projects that he has been involved with. The website was built with React and is designed to be responsive for a visually pleasing display on any device.
 
 ## The tech
-<img src="img/react.png" alt="React" height="50px">
-<img src="img/sass.png" alt="Sass" height="50px">
-<img src="img/babel.png" alt="Babel" height="50px">
-<img src="img/bootstrap.jpeg" alt="Bootsrap-v4" height="50px">
+<img src="img/tech/react.png" alt="React" height="50px">
+<img src="img/tech/sass.png" alt="Sass" height="50px">
+<img src="img/tech/babel.png" alt="Babel" height="50px">
+<img src="img/tech/bootstrap.jpeg" alt="Bootsrap-v4" height="50px">
 
 ## The mockup
 <img src="img/mockups/mobile.png" alt="mobile" height="300px">
