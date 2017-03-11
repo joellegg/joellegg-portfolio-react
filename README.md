@@ -8,7 +8,7 @@ Joel Legg is a full stack software developer with a past in petroleum geology. H
 <img src="img/react.png" alt="React" height="50px">
 <img src="img/sass.png" alt="Sass" height="50px">
 <img src="img/babel.png" alt="Babel" height="50px">
-<img src="img/bootstrap.png" alt="Bootsrap-v4" height="50px">
+<img src="img/bootstrap.jpeg" alt="Bootsrap-v4" height="50px">
 
 ## The mockup
 <img src="img/mockups/mobile.png" alt="mobile" height="300px">
