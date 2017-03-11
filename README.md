@@ -5,11 +5,22 @@
 Joel Legg is a full stack software developer with a past in petroleum geology. His adventures have taken him around the world in the pursuit of discovering oil. His personal portfolio site includes information about him, technologies that he has worked with, and cool projects that he has been involved with. The website was built with React is designed to be responsive for a visually pleasing display on any device.
 
 ## The tech
-
-## The mockup
 <img src="img/react.png" alt="React" height="30px">
 <img src="img/sass.png" alt="Sass" height="30px">
 <img src="img/babel.png" alt="Babel" height="30px">
+
+## The mockup
+<img src="img/mockups/mobile" alt="mobile" height="80px">
+<img src="img/mockups/mobile-menu" alt="mobile-menu" height="80px">
+<img src="img/mockups/mobile-about" alt="mobile-about" height="80px">
+<img src="img/mockups/mobile-products" alt="mobile-products" height="80px">
+<img src="img/mockups/mobile-tech" alt="mobile-tech" height="80px">
+<br>
+<img src="img/mockups/webpage" alt="webpage" height="80px">
+<img src="img/mockups/webpage-about" alt="webpage" height="80px">
+<img src="img/mockups/webpage-projects" alt="webpage-projects" height="80px">
+<img src="img/mockups/webpage-tech" alt="webpage-tech" height="80px">
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
