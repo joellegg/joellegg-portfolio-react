@@ -1,29 +1,35 @@
 import React, { Component } from 'react';
-import { ButtonToolbar, ButtonGroup, SplitButton, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, ButtonToolbar, ButtonGroup, SplitButton, MenuItem } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <div className="links-right">
+          <p>buttons for links</p>
+        </div>
         <div className="App App-header">
           <h1>JOEL LEGG</h1>
-          <h5>Full Stack Software Developer</h5>
-          <h5>Petroleum Geologist</h5>
-          <h5>Nashville, TN</h5>
+          <h4>Full Stack Software Developer</h4>
+          <h4>Petroleum Geologist</h4>
+          <h4>Nashville, TN</h4>
         </div>
-        <ButtonToolbar>
-          <ButtonGroup vertical block>
-            <SplitButton title="Dropup" dropup id="split-button-dropup">
-              <MenuItem eventKey="1">Action</MenuItem>
-              <MenuItem eventKey="2">Another action</MenuItem>
-              <MenuItem eventKey="3">Something else here</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey="4">Separated link</MenuItem>
-            </SplitButton>
-          </ButtonGroup>
-        </ButtonToolbar>
-
+        <Navbar inverse collapseOnSelect fixedBottom>
+          <Navbar.Header>
+            <Navbar.Brand>
+              <a href="#">More...</a>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem eventKey={1} href="#">About</NavItem>
+              <NavItem eventKey={2} href="#">Projects</NavItem>
+              <NavItem eventKey={1} href="#">Technologies</NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
       </div>
     );
   }
