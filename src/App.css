@@ -12,3 +12,14 @@
   display: flex;
   justify-content: flex-end;
   color: white; }
+
+.fa {
+  margin: 0.3em;
+  color: white; }
+
+.location-inline {
+  display: inline-flex; }
+
+.location-inline i {
+  margin-top: 0.6em;
+  margin-right: 0.6em; }
