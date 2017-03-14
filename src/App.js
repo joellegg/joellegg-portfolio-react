@@ -21,6 +21,9 @@ function Body() {
       <div className="location-inline">
         <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i><h3>Nashville, TN</h3>
       </div>
+      <div>
+      <img className="profile-pic" src={require('../img/profile_bw.jpg')} />
+      </div>
     </div>
   )
 }
