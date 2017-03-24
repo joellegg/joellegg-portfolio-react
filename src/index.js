@@ -1,12 +1,20 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import 'font-awesome/css/font-awesome.css'
-
+// LIBS
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
+import { render } from 'react-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
-ReactDOM.render(
-  <App />,
+// CSS
+import 'font-awesome/css/font-awesome.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import './css/index.css';
+
+// COMPONENTS
+import App from './components/App';
+
+render((
+  <Router>
+    <Route path="/" component={App} />
+  </Router>
+  ),
   document.getElementById('root')
 );

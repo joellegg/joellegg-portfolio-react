@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, ButtonToolbar, ButtonGroup, SplitButton, MenuItem } from 'react-bootstrap';
-import './App.css';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import './../css/App.css';
 
 function Links() {
   return (
@@ -22,7 +22,7 @@ function Body() {
         <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i><h3>Nashville, TN</h3>
       </div>
       <div>
-      <img className="profile-pic" src={require('../img/profile_bw.jpg')} />
+      <img className="profile-pic" src={require('../../img/profile_bw.jpg')} alt="joel" />
       </div>
     </div>
   )
@@ -41,7 +41,7 @@ function NavFooter() {
         <Nav>
           <NavItem eventKey={1} href="#">About</NavItem>
           <NavItem eventKey={2} href="#">Projects</NavItem>
-          <NavItem eventKey={1} href="#">Technologies</NavItem>
+          <NavItem eventKey={3} href="#">Technologies</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
