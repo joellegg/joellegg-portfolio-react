@@ -1,20 +1,19 @@
 // LIBS
+// eslint-disable-next-line
 import React from 'react';
 import { render } from 'react-dom';
-import { HashRouter as Router, Route } from 'react-router-dom';
 
 // CSS
 import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import './css/About.css';
 import './css/index.css';
+import './css/App.css';
 
-// COMPONENTS
-import App from './components/App';
+// ROUTES
+import routes from './router';
 
-render((
-  <Router>
-    <Route path="/" component={App} />
-  </Router>
-  ),
+render(
+  routes,
   document.getElementById('root')
-);
+)

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import './../css/App.css';
+import NavFooter from './Footer';
 
 function Links() {
   return (
@@ -12,48 +11,12 @@ function Links() {
   );
 }
 
-function Body() {
-  return (
-    <div className="App App-header">
-      <h1>JOEL LEGG</h1>
-      <h3>Full Stack Software Developer</h3>
-      <h3>Petroleum Geologist</h3>
-      <div className="location-inline">
-        <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i><h3>Nashville, TN</h3>
-      </div>
-      <div>
-      <img className="profile-pic" src={require('../../img/profile_bw.jpg')} alt="joel" />
-      </div>
-    </div>
-  )
-}
-
-function NavFooter() {
-  return (
-    <Navbar inverse collapseOnSelect fixedBottom>
-      <Navbar.Header>
-        <Navbar.Brand>
-          <a href="#">More...</a>
-        </Navbar.Brand>
-        <Navbar.Toggle />
-      </Navbar.Header>
-      <Navbar.Collapse>
-        <Nav>
-          <NavItem eventKey={1} href="#">About</NavItem>
-          <NavItem eventKey={2} href="#">Projects</NavItem>
-          <NavItem eventKey={3} href="#">Technologies</NavItem>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
-  )
-}
-
 class App extends Component {
   render() {
     return (
       <div>
         <Links />
-        <Body />
+        { this.props.children }
         <NavFooter />
       </div>
     );
