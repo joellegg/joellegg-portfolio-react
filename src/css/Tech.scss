@@ -1,7 +1,20 @@
+$width: 5em;
+$height: 2.887em;
+$hex-ba: 3.536em;
+$transform: 0.5774;
+
+.tech_container {
+  /*border: 1px solid white;*/
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hexagon {
   position: relative;
-  width: 5em;
-  height: 2.887em;
+  width: $width;
+  height: $height;
   background-color: #515151;
   margin: 1.4em 0.3em;
   box-shadow: 0 0 1.25em rgba(0,0,0,0.6);
@@ -12,11 +25,11 @@
   content: "";
   position: absolute;
   z-index: 1;
-  width: 3.536em;
-  height: 3.536em;
-  -webkit-transform: scaleY(0.5774) rotate(-45deg);
-  -ms-transform: scaleY(0.5774) rotate(-45deg);
-  transform: scaleY(0.5774) rotate(-45deg);
+  width: $hex-ba;
+  height: $hex-ba;
+  -webkit-transform: scaleY($transform) rotate(-45deg);
+  -ms-transform: scaleY($transform) rotate(-45deg);
+  transform: scaleY($transform) rotate(-45deg);
   background-color: inherit;
   left: 0.732em;
   box-shadow: 0 0 1.25em rgba(0,0,0,0.6);
@@ -36,8 +49,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 5em;
-  height: 2.887em;
+  width: $width;
+  height: $height;
   z-index: 2;
   background: inherit;
 }

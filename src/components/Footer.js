@@ -14,8 +14,8 @@ const NavFooter = () => {
       <Navbar.Collapse>
         <Nav>
           <NavItem href="/about">About</NavItem>
-          <NavItem eventKey={2} href="#">Projects</NavItem>
-          <NavItem eventKey={3} href="#">Technologies</NavItem>
+          <NavItem href="/project">Projects</NavItem>
+          <NavItem href="/tech">Technologies</NavItem>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
