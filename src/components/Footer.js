@@ -1,7 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 // import Link from 'react-router-dom';
 
+// this is a stateless functional component
+// written with React.createClass allows it to have state
 const NavFooter = () => {
   return (
     <Navbar inverse collapseOnSelect fixedBottom>
@@ -12,11 +15,12 @@ const NavFooter = () => {
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
-        <Nav>
-          <NavItem href="/about">About</NavItem>
-          <NavItem href="/project">Projects</NavItem>
-          <NavItem href="/tech">Technologies</NavItem>
-        </Nav>
+        <div className='footer__links'>
+          <Link to='/'>Home</Link>
+          <Link to='/about'>About</Link>
+          <Link to='/projects'>Projects</Link>
+          <Link to='/tech'>Technologies</Link>
+        </div>
       </Navbar.Collapse>
     </Navbar>
   )

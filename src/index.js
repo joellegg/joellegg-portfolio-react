@@ -8,6 +8,7 @@ import 'font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/About.css';
 import './css/Tech.css';
+import './css/Projects.css';
 import './css/index.css';
 import './css/App.css';
 

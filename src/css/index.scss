@@ -5,3 +5,14 @@ body {
   background: url(../../img/mobile-const.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2em;
+}
+.footer__links a {
+  color: #9d9d9d;
+  font-size: 1.2em;
+  margin: 0.1em;
+}
