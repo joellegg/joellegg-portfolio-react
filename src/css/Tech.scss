@@ -6,9 +6,9 @@ $ba: -1.56em;
 
 .tech_container {
   /*border: 1px solid white;*/
-  width: 95%;
-  margin: 0.8em auto 3em auto;
+  width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -45,15 +45,22 @@ $ba: -1.56em;
 }
 
 /*cover up extra shadows*/
-.hexagon span {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: $width;
-  height: $height;
-  z-index: 2;
-  background: inherit;
+.hexagon {
+  span {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $width;
+    height: $height;
+    z-index: 2;
+    background: inherit;
+    justify-content: center;
+  }
+
+  img {
+    height: 100%;
+  }
 }
 
 .top-row {
@@ -61,19 +68,19 @@ $ba: -1.56em;
 }
 .odd-row {
   display: flex;
-  margin-top: -1em;
+  margin-top: -0.5em;
 }
 .even-row {
   display: flex;
-  margin-top: -1em;
-  margin-left: 2.8em;
+  margin-top: -0.5em;
+  margin-left: 4.8em;
 }
 
-
-#javascript {
-  height: 100%;
-  margin: 0 1.1em;
+.tech__container {
+  display: flex;
+  justify-content: center;
 }
+
 #html {
   height: 120%;
   margin: -0.4em 0.8em;

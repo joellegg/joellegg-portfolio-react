@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div className="App App-header">
         <h1>JOEL LEGG</h1>
-        <h3>Full Stack Software Developer</h3>
+        <h3>Software Developer</h3>
         <h3>Petroleum Geologist</h3>
         <div className="location-inline">
           <i className="fa fa-map-marker fa-2x" aria-hidden="true"></i><h3>Nashville, TN</h3>

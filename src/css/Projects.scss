@@ -1,25 +1,24 @@
 .projects_container {
-  margin: 0 1em;
+  margin: 0 1em 4em 1em;
 }
 
 .project__style {
   width: 100%;
   padding: 0.6em;
   border-radius: 5px;
-  background-color: rgba(160, 160, 160, 0.85);
+  background-color: rgba(220, 220, 220, 0.85);
   text-align: justify;
   margin-bottom: 1em;
 }
 
 .project__style {
   p {
-    color: white;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0.3em;
   }
 
   h2 {
-    color: white;
+    color: black;
     margin-top: 0.1em;
   }
 }
