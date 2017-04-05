@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 // import Link from 'react-router-dom';
 
 // this is a stateless functional component

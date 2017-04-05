@@ -4,6 +4,7 @@ class About extends Component {
   render() {
     return (
       <div className="about_container">
+        <h1>About</h1>
         <p>
           I was born and raised in Franklin, TN. I earned a masters degree from the University of Alabama in 2014 and became a published geologist. Afterwards, I worked for a multinational oil company in Denver, CO until circumstances led me back to Nashville, TN and into the field of software development.
         </p>
