@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 // import Link from 'react-router-dom';
 
 // this is a stateless functional component
 // written with React.createClass allows it to have state
 const NavFooter = () => {
   return (
+
     <Navbar inverse collapseOnSelect fixedBottom>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#">More...</a>
+          <a>More...</a>
         </Navbar.Brand>
         <Navbar.Toggle />
       </Navbar.Header>
@@ -23,6 +24,7 @@ const NavFooter = () => {
         </div>
       </Navbar.Collapse>
     </Navbar>
+
   )
 }
 
