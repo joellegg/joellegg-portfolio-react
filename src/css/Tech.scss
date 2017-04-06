@@ -113,3 +113,25 @@ $ba: -1.56em;
   height: 70%;
   margin-top: 0.5em;
 }
+
+@media (min-width: 600px) {
+  .tech_container {
+    /*border: 1px solid white;*/
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5em auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .tech_container {
+    /*border: 1px solid white;*/
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5em auto;
+  }
+}

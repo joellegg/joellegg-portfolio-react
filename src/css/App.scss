@@ -14,12 +14,19 @@
 .links-right {
   display: flex;
   justify-content: flex-end;
-  color: white;
+  color: black;
+}
+
+.links__lg {
+  display: none;
 }
 
 .fa {
+  background: white;
+  border-radius: 50%;
   margin: 0.3em;
-  color: white;
+  color: black;
+  padding: 0.2em;
 }
 
 .location-inline {
@@ -35,4 +42,40 @@
   border-radius: 50%;
   width: 100px;
   margin-top: 3em;
+}
+
+@media (min-width: 600px) {
+  .App-header {
+    margin: 5em;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .links-right {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    color: black;
+    flex-direction: column;
+    margin: 2em -1em 0 0;
+  }
+
+  .links__lg {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    color: black;
+    flex-direction: column;
+  }
+
+  .container__button_content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .navbar__lg {
+    display: none;
+  }
 }

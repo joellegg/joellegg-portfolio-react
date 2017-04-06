@@ -1,14 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { Navbar, Nav } from 'react-bootstrap';
-// import Link from 'react-router-dom';
 
 // this is a stateless functional component
 // written with React.createClass allows it to have state
 const NavFooter = () => {
   return (
 
-    <Navbar inverse collapseOnSelect fixedBottom>
+    <Navbar inverse collapseOnSelect fixedBottom className='navbar__lg'>
       <Navbar.Header>
         <Navbar.Brand>
           <a>More...</a>

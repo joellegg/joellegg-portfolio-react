@@ -9,9 +9,7 @@
   background-color: rgba(220, 220, 220, 0.85);
   text-align: justify;
   margin-bottom: 1em;
-}
 
-.project__style {
   p {
     font-size: 1.1em;
     margin: 0.3em;
@@ -20,5 +18,18 @@
   h2 {
     color: black;
     margin-top: 0.1em;
+  }
+}
+
+@media (min-width: 600px) {
+  .projects_container {
+    width: 70%;
+    margin: 5em auto;
+  }
+
+  .project__style {
+    p {
+      font-size: 1.5em;
+    }
   }
 }
