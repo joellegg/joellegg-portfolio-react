@@ -10,7 +10,10 @@ class Projects extends Component {
         </div>
         <div className="project__style">
           <a href="https://github.com/joellegg/tool-trader-ionic"><h2>Tool-trader</h2></a>
-          <p>Tool-trader is a mobile app that allows a user to borrow or rent tools from friends and locals. The app was built with HTML, CSS, JavaScript and the Ionic framework. Cordova plugins were used on the client-side, and Firebase for the server-side</p>
+          <div className='Project__inline'>
+            <p>Tool-trader is a mobile app that allows a user to borrow or rent tools from friends and locals. The app was built with HTML, CSS, JavaScript and the Ionic framework. Cordova plugins were used on the client-side, and Firebase for the server-side</p>
+            <img className="Project-tool-trader" src={require('../../img/projects/tool-trader-main.png')} alt="tool-trader" />
+          </div>
         </div>
         <div className="project__style">
           <h2>Bangazon</h2>

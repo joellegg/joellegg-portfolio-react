@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavFooter from './Footer';
+import { Link } from 'react-router-dom'
 
 function Links() {
   return (
@@ -17,16 +18,16 @@ function Links() {
       </div>
       <div className="links__lg">
         <span className='links__circle'>
-          <a href="/"><i className="fa fa-home fa-2x" aria-hidden="true"></i></a>
+          <Link to="/"><i className="fa fa-home fa-2x" aria-hidden="true"></i></Link>
         </span>
         <span className='links__circle'>
-          <a href="/about"><i className="fa fa-info fa-2x" aria-hidden="true"></i></a>
+          <Link to="/about"><i className="fa fa-info fa-2x" aria-hidden="true"></i></Link>
         </span>
         <span className='links__circle'>
-          <a href="/projects"><i className="fa fa-product-hunt fa-2x" aria-hidden="true"></i></a>
+          <Link to="/projects"><i className="fa fa-product-hunt fa-2x" aria-hidden="true"></i></Link>
         </span>
         <span className='links__circle'>
-          <a href="/tech"><i className="fa fa-language fa-2x" aria-hidden="true"></i></a>
+          <Link to="/tech"><i className="fa fa-language fa-2x" aria-hidden="true"></i></Link>
         </span>
       </div>
     </div>
