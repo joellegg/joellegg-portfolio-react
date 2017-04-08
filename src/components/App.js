@@ -7,7 +7,7 @@ function Links() {
     <div className='links'>
       <div className="links-right">
         <span className='links__circle'>
-          <a href="https://www.linkedin.com/in/joel-legg-279a5b58/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/joellegg/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
         </span>
         <span className='links__circle'>
           <a href="mailto:joellegg@bellsouth.net"><i className="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
