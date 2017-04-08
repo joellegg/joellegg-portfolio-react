@@ -1,0 +1,137 @@
+$width: 4.4em;
+$height: 2.54em;
+$hex-ba: 3.12em;
+$transform: 0.49;
+$ba: -1.56em;
+
+.tech_container {
+  /*border: 1px solid white;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1em 0 4em;
+}
+
+.hexagon {
+  position: relative;
+  width: $width;
+  height: $height;
+  background-color: #515151;
+  margin: 1em 0.3em;
+  box-shadow: 0 0 1.25em rgba(0,0,0,0.6);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: $hex-ba;
+  height: $hex-ba;
+  -webkit-transform: scaleY($transform) rotate(-45deg);
+  -ms-transform: scaleY($transform) rotate(-45deg);
+  transform: scaleY($transform) rotate(-45deg);
+  background-color: inherit;
+  left: 0.732em;
+  box-shadow: 0 0 1.25em rgba(0,0,0,0.6);
+}
+
+.hexagon:before {
+  top: $ba;
+}
+
+.hexagon:after {
+  bottom: $ba;
+}
+
+/*cover up extra shadows*/
+.hexagon {
+  span {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $width;
+    height: $height;
+    z-index: 2;
+    background: inherit;
+    justify-content: center;
+  }
+
+  img {
+    height: 100%;
+    max-width: 100%;
+  }
+}
+
+.top-row {
+  display: flex;
+  margin-left: -2.4em;
+  /*border: 1px solid red;*/
+}
+.odd-row {
+  display: flex;
+  margin: -0.5em 0 0 -2.4em;
+  /*border: 1px solid yellow;*/
+}
+.even-row {
+  display: flex;
+  margin-top: -0.5em;
+  margin-left: 2.4em;
+  /*border: 1px solid purple;*/
+}
+
+.tech__container {
+  display: flex;
+  justify-content: center;
+}
+
+#trello {
+  height: 70%;
+  margin: 0.4em;
+}
+#moch-chai {
+  width: 140%;
+}
+#express {
+  height: 60%;
+  margin-top: 0.5em;
+}
+#firebase {
+  width: 100%;
+}
+#postgres {
+  height: 160%;
+  margin-top: -0.9em;
+}
+#bootstrap {
+  height: 160%;
+  margin: -0.7em
+}
+#slack {
+  height: 70%;
+  margin-top: 0.5em;
+}
+
+@media (min-width: 600px) {
+  .tech_container {
+    /*border: 1px solid white;*/
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5em auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .tech_container {
+    /*border: 1px solid white;*/
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5em auto;
+  }
+}

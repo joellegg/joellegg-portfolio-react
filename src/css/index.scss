@@ -5,3 +5,34 @@ body {
   background: url(../../img/mobile-const.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2em;
+}
+.footer__links a {
+  color: #9d9d9d;
+  font-size: 1.2em;
+  margin: 0.1em;
+}
+@media (min-width: 600px) {
+  .footer__links {
+    flex-direction: row;
+    margin: 0.8em;
+
+    a {
+      margin-right: 1.5em;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../../img/stars_flashlight.jpeg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}

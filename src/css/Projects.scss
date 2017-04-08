@@ -1,0 +1,81 @@
+.projects_container {
+  margin: 1em 1em 4em 1em;
+}
+
+.project__style {
+  width: 100%;
+  padding: 0.6em;
+  border-radius: 5px;
+  background-color: rgba(220, 220, 220, 0.85);
+  text-align: justify;
+  margin-bottom: 1em;
+
+  p {
+    font-size: 1.1em;
+    margin: 0.3em;
+  }
+
+  h2 {
+    color: black;
+    margin-top: 0.1em;
+  }
+}
+
+.Project-tool-trader {
+  display: none;
+}
+.Project__bangazon_img {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .projects_container {
+    width: 70%;
+    margin: 1em auto;
+    border-radius: 5px;
+    background-color: rgba(220, 220, 220, 0.85);
+  }
+
+  .Project-tool-trader {
+    display: flex;
+    width: 22%;
+    height: 22%;
+    margin: 1.5%;
+  }
+
+  .project__style {
+    border-radius: 5px;
+    background-color: none;
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+  .Project__trader-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 1em;
+  }
+
+  .Project__bangazon-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 1em;
+  }
+
+  .Project__bangazon_img {
+    display: flex;
+    width: 31%;
+    height: 31%;
+    margin: 1em auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .Project__trader-images {
+    flex-wrap: nowrap;
+  }
+}

@@ -1,5 +1,20 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    margin: 0.5em auto;
+  }
+
+  h3 {
+    margin: 0.4em auto;
+  }
+
+  img {
+    justify-content: center;
+    margin: auto;
+  }
 }
 
 .App-header {
@@ -14,16 +29,40 @@
 .links-right {
   display: flex;
   justify-content: flex-end;
-  color: white;
+  color: black;
+}
+
+.links__lg {
+  display: none;
+}
+
+.links__circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 1em 0.5em 0 0.2em;
 }
 
 .fa {
-  margin: 0.3em;
-  color: white;
+  color: black;
+  padding: 0.2em;
+}
+
+.Home__bar {
+  display: none;
+}
+
+.Home__title {
+  display: flex;
+  flex-direction: column;
 }
 
 .location-inline {
   display: inline-flex;
+  margin: 0 auto;
 }
 
 .location-inline i {
@@ -31,8 +70,91 @@
   margin-right: 0.6em;
 }
 
+#home__icon {
+  color: white;
+  margin: 0 0.5em;
+}
+
+#home__location {
+  margin-left: 0;
+}
+
 .profile-pic {
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   width: 100px;
   margin-top: 3em;
+}
+
+@media (min-width: 600px) {
+  .App-header {
+    margin: 0 auto;
+  }
+
+  .App {
+    h3 {
+      margin: 0.4em;
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .links-right {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    flex-direction: row;
+  }
+
+  .links__lg {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    color: black;
+    flex-direction: row;
+  }
+
+  .Home__bar {
+    display: flex;
+  }
+
+  .Home__title {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .container__button_content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar__lg {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .container__button_content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .links {
+    display: flex;
+    justify-content: column;
+  }
+
+  .links-right {
+    margin: 2em -1em;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .links__lg {
+    flex-direction: column;
+  }
 }
