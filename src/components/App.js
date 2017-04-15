@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavFooter from './Footer';
 import { Link } from 'react-router-dom'
 
 function Links() {
@@ -7,13 +6,13 @@ function Links() {
     <div className='links'>
       <div className="links-right">
         <span className='links__circle'>
-          <a href="https://www.linkedin.com/in/joellegg/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/joel-legg-279a5b58/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
         </span>
         <span className='links__circle'>
           <a href="mailto:joellegg@bellsouth.net"><i className="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
         </span>
         <span className='links__circle'>
-          <a href="https://github.com/joellegg"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
+          <a target="_blank" href="https://github.com/joellegg"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
         </span>
       </div>
       <div className="links__lg">
@@ -42,7 +41,6 @@ class App extends Component {
           <Links />
           { this.props.children }
         </div>
-        <NavFooter />
       </div>
     );
   }
