@@ -26,6 +26,11 @@
   font-size: large;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+}
+
 .links-right {
   display: flex;
   justify-content: flex-end;
@@ -33,7 +38,11 @@
 }
 
 .links__lg {
-  display: none;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  color: black;
+  flex-direction: row;
 }
 
 .links__circle {
@@ -43,7 +52,7 @@
   background-color: white;
   display: flex;
   justify-content: center;
-  margin: 1em 0.5em 0 0.2em;
+  margin: 1em 0.1em 0 0.1em;
 }
 
 .fa {
@@ -72,7 +81,7 @@
 
 #home__icon {
   color: white;
-  margin: 0 0.5em;
+  margin: 0 0.5em 0 0;
 }
 
 #home__location {
@@ -101,6 +110,11 @@
   .links {
     display: flex;
     justify-content: flex-end;
+    margin-right: 1.5em;
+  }
+
+  .links__circle {
+    margin: 1em 0.5em 0 0.1em;
   }
 
   .links-right {
