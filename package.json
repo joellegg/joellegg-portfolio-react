@@ -96,6 +96,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "homepage": "https://joellegg.github.io"
+  }
 }
