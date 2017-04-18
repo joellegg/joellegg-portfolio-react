@@ -1,7 +1,4 @@
 .App {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   margin: 1em auto;
   text-align: center;
 
@@ -139,7 +136,7 @@
   }
 
   .Home__title {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
   }
 
