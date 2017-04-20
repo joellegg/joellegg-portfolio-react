@@ -3,21 +3,21 @@
   text-align: center;
 
   h1 {
-    margin: 0.5em auto;
+    margin: 0 auto;
   }
 
   h3 {
-    margin: 0.4em auto;
+    margin: 0.2em auto;
   }
 
-  img {
+ /* img {
     justify-content: center;
     margin: auto;
-  }
+  }*/
 }
 
 .App-header {
-  padding: 20px;
+  padding: 10px;
   color: white;
 }
 
@@ -52,6 +52,10 @@
   display: flex;
   justify-content: center;
   margin: 1em 0.1em 0 0.1em;
+}
+
+.links__resume {
+  display: none;
 }
 
 .fa {
@@ -90,14 +94,14 @@
 .profile-pic {
   display: flex;
   justify-content: center;
-  border-radius: 50%;
-  width: 100px;
-  margin-top: 3em;
+  border-radius: 10px;
+  width: 200px;
+  margin: 1em auto 0;
 }
 
 @media (min-width: 600px) {
   .App-header {
-    margin: 0 auto;
+    margin: 2em auto;
   }
 
   .App {
@@ -129,6 +133,10 @@
     align-self: flex-start;
     color: black;
     flex-direction: row;
+  }
+
+  .links__resume {
+    display: flex;
   }
 
   .Home__bar {

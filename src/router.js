@@ -8,6 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Tech from './components/Tech';
+import Resume from './components/Resume';
 
 
 // browser router will pass params from the URL
@@ -18,6 +19,7 @@ const routes = (
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
       <Route path="/tech" component={Tech} />
+      <Route path="/resume" component={Resume} />
     </App>
   </Router>
 );

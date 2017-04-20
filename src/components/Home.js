@@ -14,7 +14,7 @@ class Home extends Component {
           <i id='home__icon' className="fa fa-map-marker fa-2x" aria-hidden="true"></i><h3 id='home__location'>Nashville, TN</h3>
         </div>
         <div>
-        <img className="profile-pic" src={require('../../img/profile_bw.jpg')} alt="joel" />
+          <img className="profile-pic" src={require('../../img/joel-profpic.jpg')} alt="joel" />
         </div>
       </div>
     )

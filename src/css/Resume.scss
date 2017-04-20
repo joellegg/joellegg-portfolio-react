@@ -1,0 +1,29 @@
+.Resume__resume {
+  width: 100%;
+  margin: 2em auto;
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  .Resume__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Resume__resume {
+    width: 90%;
+    margin: 2em auto;
+    display: flex;
+  }
+}
+
+@media (min-width: 800px) {
+  .Resume__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .Resume__resume {
+    max-width: 700px;
+    margin: 2em auto;
+    display: flex;
+  }
+}
