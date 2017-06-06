@@ -4,10 +4,10 @@ class Resume extends Component {
   render() {
     return (
       <div className="Resume__container">
-        <a href={require('../../img/legg-resume.png')} download="legg-resume">
+        <a href={require('../../img/legg_resume.pdf')} download="legg-resume">
           <img className="Resume__download" src={require('../../img/download_icon.png')} />
         </a>
-        <img className="Resume__resume" src={require('../../img/legg-resume.png')} alt="joel-resume" />
+        <img className="Resume__resume" src={require('../../img/legg_resume.jpg')} alt="joel-resume" />
       </div>
     )
   }
