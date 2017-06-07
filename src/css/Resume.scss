@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.Resume__download {
+  display: none;
+}
+
+
 @media (min-width: 600px) {
   .Resume__container {
     width: 90%;
@@ -20,6 +25,18 @@
   .Resume__container {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+  }
+  .Resume__download:hover {
+    background-color: transparent;
+  }
+  .Resume__download {
+    display: flex;
+    background-color: white;
+    border-radius: 40px;
+    padding: 4px;
+    width: 4em;
+    margin: 2em 1em;
   }
   .Resume__resume {
     max-width: 700px;

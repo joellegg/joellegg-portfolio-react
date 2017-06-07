@@ -9,11 +9,6 @@
   h3 {
     margin: 0.2em auto;
   }
-
- /* img {
-    justify-content: center;
-    margin: auto;
-  }*/
 }
 
 .App-header {
@@ -52,6 +47,10 @@
   display: flex;
   justify-content: center;
   margin: 1em 0.1em 0 0.1em;
+}
+
+.links__circle:hover {
+  background-color: transparent;
 }
 
 .links__resume {

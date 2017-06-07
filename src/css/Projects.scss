@@ -20,7 +20,9 @@
     margin-top: 0.1em;
   }
 }
-
+.Project__images__wl {
+  display:none;
+}
 .Project-tool-trader {
   display: none;
 }
@@ -50,6 +52,12 @@
     p {
       font-size: 1.2em;
     }
+  }
+
+  .Project__images__wl {
+    display: flex;
+    margin: 1em auto;
+    width: 80%;
   }
 
   .Project__trader-images {
