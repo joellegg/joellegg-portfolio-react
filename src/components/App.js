@@ -1,16 +1,21 @@
 import React, { Component } from 'react';
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 
-import Tabs from './Tabs';
+const theme = createMuiTheme({
+  palette: {
+    type: 'dark',
+    // background:
+  },
+});
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <MuiThemeProvider theme={theme}>
         <div className='container__button_content'>
-          <Tabs />
           { this.props.children }
         </div>
-      </div>
+      </MuiThemeProvider>
     );
   }
 }

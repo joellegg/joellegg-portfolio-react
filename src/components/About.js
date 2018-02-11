@@ -17,7 +17,7 @@ class About extends Component {
               Outside of software development, I'm a husband, new father! and hobbyist woodworker. When possible, I enjoy spending time outdoors, hiking, fishing, golfing, and skiing.
             </p>
             <p>
-              *Fueled by coffee and beer
+              *Passion only gets you so far, coffee and beer get you the rest of the way.
             </p>
           </div>
         </div>

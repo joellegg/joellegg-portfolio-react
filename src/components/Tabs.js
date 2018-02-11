@@ -7,66 +7,93 @@
 // <a href="mailto:joellegg@bellsouth.net"><i className="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
 // <a target="_blank" href="https://github.com/joellegg"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
 
-
 import React from 'react';
-import { Tabs, Tab } from 'material-ui/Tabs';
-// From https://github.com/oliviertassinari/react-swipeable-views
+import PropTypes from 'prop-types';
+import { withStyles } from 'material-ui/styles';
 import SwipeableViews from 'react-swipeable-views';
+import AppBar from 'material-ui/AppBar';
+import Tabs, { Tab } from 'material-ui/Tabs';
+import Typography from 'material-ui/Typography';
 
-const styles = {
-    headline: {
-        fontSize: 24,
-        paddingTop: 16,
-        marginBottom: 12,
-        fontWeight: 400,
-    },
-    slide: {
-        padding: 10,
-    },
+// Views 
+import About from './About';
+import Projects from './Projects';
+// import Contact from './Contact';
+
+// CSS 
+import '../css/Tabs.css';
+
+function TabContainer({ children, dir }) {
+    return (
+        <Typography component="div" dir={dir}>
+            {children}
+        </Typography>
+    );
+}
+
+TabContainer.propTypes = {
+    children: PropTypes.node.isRequired,
+    dir: PropTypes.string.isRequired,
 };
 
-export default class TabsExampleSwipeable extends React.Component {
+const styles = theme => ({
+    root: {
+        backgroundColor: theme.palette.background.paper,
+    },
+});
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            slideIndex: 0,
-        };
-    }
+class FullWidthTabs extends React.Component {
+    state = {
+        value: 0,
+    };
 
-    handleChange = (value) => {
-        this.setState({
-            slideIndex: value,
-        });
+    handleChange = (event, value) => {
+        this.setState({ value });
+    };
+
+    handleChangeIndex = index => {
+        this.setState({ value: index });
     };
 
     render() {
+        const { classes, theme } = this.props;
+
         return (
-            <div>
-                <Tabs
-                    onChange={this.handleChange}
-                    value={this.state.slideIndex}
-                >
-                    <Tab label="Tab One" value={0} />
-                    <Tab label="Tab Two" value={1} />
-                    <Tab label="Tab Three" value={2} />
-                </Tabs>
+            <div className={classes.root}>
+                <AppBar position="absolute" color="default" className="header">
+                    <Tabs
+                        value={this.state.value}
+                        onChange={this.handleChange}
+                        indicatorColor="primary"
+                        textColor="primary"
+                        fullWidth
+                    >
+                        <Tab label="About" />
+                        <Tab label="Projects" />
+                        <Tab label="Contact" />
+                    </Tabs>
+                </AppBar>
                 <SwipeableViews
-                    index={this.state.slideIndex}
-                    onChangeIndex={this.handleChange}
+                    axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+                    index={this.state.value}
+                    onChangeIndex={this.handleChangeIndex}
                 >
-                    <div>
-                        <h2 style={styles.headline}>Tabs with slide effect</h2>
-                        Swipe to see the next slide.<br />
-                    </div>
-                    <div style={styles.slide}>
-                        slide n°2
-                    </div>
-                    <div style={styles.slide}>
-                        slide n°3
-                    </div>
+                    <TabContainer dir={theme.direction}>
+                        <About />
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>
+                        <Projects />
+                    </TabContainer>
+                    <TabContainer dir={theme.direction}>Item Three</TabContainer>
                 </SwipeableViews>
             </div>
         );
     }
 }
+
+FullWidthTabs.propTypes = {
+    classes: PropTypes.object.isRequired,
+    theme: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles, { withTheme: true })(FullWidthTabs);
