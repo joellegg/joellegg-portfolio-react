@@ -11,14 +11,5 @@ Joel Legg is a full stack software developer with a past in petroleum geology. H
 How to deploy a custom <a href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#step-5-optionally-configure-the-domain">domain</a> to gh-pages
 
 ## The tech
-<img src="img/tech/frameworks/react-logo.png" alt="React" height="50px"><img src="img/tech/helpers/babel.png" alt="Babel" height="50px"><img src="img/tech/styles/sass.png" alt="Sass" height="50px"><img src="img/tech/styles/bootstrap.jpeg" alt="Bootsrap" height="50px">
+<img src="img/tech/frameworks/react-logo.png" alt="React" height="50px">
 
-## The mockup
-<img src="img/mockups/mobile.png" alt="mobile" height="300px"><img src="img/mockups/mobile-menu.png" alt="mobile-menu" height="300px"><img src="img/mockups/mobile-about.png" alt="mobile-about" height="300px">
-<img src="img/mockups/mobile-products.png" alt="mobile-products" height="300px"><img src="img/mockups/mobile-tech.png" alt="mobile-tech" height="300px">
-<br>
-<img src="img/mockups/webpage.png" alt="webpage" height="270px">
-<img src="img/mockups/webpage-about.png" alt="webpage" height="270px">
-<br>
-<img src="img/mockups/webpage-projects.png" alt="webpage-projects" height="270px">
-<img src="img/mockups/webpage-tech.png" alt="webpage-tech" height="270px">
