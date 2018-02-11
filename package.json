@@ -6,11 +6,13 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "node-sass": "^4.5.0",
-    "react": "^15.4.2",
+    "react": "^16.2.0",
     "react-bootstrap": "^0.30.8",
-    "react-dom": "^15.4.2",
+    "react-dom": "^16.2.0",
     "react-router": "^4.0.0",
-    "react-router-dom": "^4.0.0"
+    "react-router-dom": "^4.0.0",
+    "react-scripts": "1.1.1",
+    "react-swipeable-views": "^0.12.12"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
