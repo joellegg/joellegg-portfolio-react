@@ -6,7 +6,7 @@ class About extends Component {
       <div className="about_container bg-image">
         <div className="About__row">
           <div className="About__text">
-            <h1>About</h1>
+            <h1 class="logo">JLegg</h1>
             <p>
               Hi, I'm Joel, a Nashville native and a full stack software engineer. I've built projects using multiple languages, but I enjoy JavaScript the most (so far!). I hold a masters degree in Geology from the University of Alabama and worked as a petroleum geologist for several years. 
             </p>

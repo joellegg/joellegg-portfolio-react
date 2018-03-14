@@ -1,12 +1,3 @@
-// <Link to="/"><i className="fa fa-home fa-2x" aria-hidden="true"></i></Link>
-// <Link to="/about"><i className="fa fa-info fa-2x" aria-hidden="true"></i></Link>
-// <Link to="/projects"><i className="fa fa-product-hunt fa-2x" aria-hidden="true"></i></Link>
-// <Link to="/tech"><i className="fa fa-language fa-2x" aria-hidden="true"></i></Link>
-// <Link to="/resume"><i className="fa fa-file-text fa-2x" aria-hidden="true"></i></Link>
-// <a target="_blank" href="https://www.linkedin.com/in/joel-legg-279a5b58/"><i className="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-// <a href="mailto:joellegg@bellsouth.net"><i className="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-// <a target="_blank" href="https://github.com/joellegg"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
